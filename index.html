@@ -1,0 +1,1247 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>酒色蝌蚪91 - 城市夜游影像社区 | 官方品牌门户</title>
+<meta name="description" content="酒色蝌蚪91官方网站，专注于城市夜游、微醺文化与独立影像创作，汇聚原创创作者与品质短片，打造值得信赖的视频内容社区。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231b1b2e'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23ff7a45'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%231b1b2e'/%3E%3C/svg%3E">
+<style>
+:root{
+  --jstt-bg:#12121f;
+  --jstt-bg-soft:#1b1b2e;
+  --jstt-card:#202035;
+  --jstt-line:#323250;
+  --jstt-ink:#f4f4fa;
+  --jstt-ink-dim:#b9b9cc;
+  --jstt-brand:#ff7a45;
+  --jstt-brand-2:#ffb347;
+  --jstt-cyan:#5ce1e6;
+  --jstt-radius:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  background:var(--jstt-bg);
+  color:var(--jstt-ink);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+.jstt-skip-anchor{scroll-margin-top:120px}
+
+/* 吸顶公告 + 页头 */
+.jstt-sticky-head{position:sticky;top:0;z-index:60}
+.jstt-notice-bar{
+  background:linear-gradient(90deg,#2a1a3a,#1f2b45 55%,#12241f);
+  border-bottom:1px solid var(--jstt-line);
+  font-size:13px;
+  padding:8px 20px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  overflow:hidden;
+}
+.jstt-notice-tag{
+  background:var(--jstt-brand);
+  color:#1a1208;
+  font-weight:700;
+  padding:1px 10px;
+  border-radius:99px;
+  font-size:12px;
+  flex:none;
+}
+.jstt-notice-track{display:flex;gap:44px;animation:jstt-slide 26s linear infinite;white-space:nowrap;color:#d9d9ea}
+.jstt-notice-track span{opacity:.9}
+@keyframes jstt-slide{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+.jstt-header{
+  background:rgba(18,18,31,.92);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--jstt-line);
+}
+.jstt-header-inner{
+  max-width:1220px;margin:0 auto;
+  display:flex;align-items:center;gap:22px;
+  padding:12px 20px;
+}
+.jstt-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;letter-spacing:.5px;flex:none}
+.jstt-logo-mark{
+  width:34px;height:34px;border-radius:10px;
+  background:conic-gradient(from 210deg,#ff7a45,#ffb347,#5ce1e6,#ff7a45);
+  display:grid;place-items:center;color:#12121f;font-size:17px;font-weight:900;
+}
+.jstt-logo em{font-style:normal;color:var(--jstt-brand)}
+.jstt-nav{display:flex;gap:4px;flex:1;flex-wrap:wrap}
+.jstt-nav a{
+  padding:7px 13px;border-radius:99px;font-size:14px;color:var(--jstt-ink-dim);
+  transition:.2s;
+}
+.jstt-nav a:hover,.jstt-nav a.jstt-nav-active{color:#fff;background:#2a2a44}
+.jstt-search{position:relative;flex:none}
+.jstt-search input{
+  width:200px;padding:8px 12px 8px 34px;border-radius:99px;
+  border:1px solid var(--jstt-line);background:#191927;color:var(--jstt-ink);
+  font-size:13px;outline:none;transition:.2s;
+}
+.jstt-search input:focus{border-color:var(--jstt-brand);width:230px;background:#1f1f30}
+.jstt-search::before{
+  content:"⌕";position:absolute;left:12px;top:50%;transform:translateY(-50%);
+  color:var(--jstt-ink-dim);font-size:16px;pointer-events:none;
+}
+.jstt-search-feedback{
+  position:absolute;top:110%;left:0;right:0;background:#26263d;border:1px solid var(--jstt-line);
+  border-radius:12px;font-size:12.5px;padding:8px 12px;color:var(--jstt-cyan);
+  display:none;
+}
+.jstt-search-feedback.jstt-show{display:block}
+.jstt-burger{display:none;background:none;border:1px solid var(--jstt-line);color:var(--jstt-ink);border-radius:10px;padding:6px 11px;font-size:18px;flex:none}
+
+.jstt-wrap{max-width:1220px;margin:0 auto;padding:0 20px}
+.jstt-section{padding:56px 0}
+.jstt-section-tight{padding:40px 0}
+.jstt-eyebrow{
+  display:inline-block;font-size:12px;letter-spacing:2px;color:var(--jstt-brand);
+  border:1px solid #4a3a35;background:#241c1c;border-radius:99px;padding:2px 12px;margin-bottom:14px;
+}
+.jstt-h2{font-size:28px;line-height:1.35;letter-spacing:.5px}
+.jstt-h2 span{color:var(--jstt-brand)}
+.jstt-sub{color:var(--jstt-ink-dim);font-size:14.5px;margin-top:8px;max-width:720px}
+.jstt-h3{font-size:17px;line-height:1.5}
+
+/* 首屏 */
+.jstt-hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 420px at 82% -10%,rgba(255,122,69,.22),transparent 60%),
+    radial-gradient(700px 360px at 8% 110%,rgba(92,225,230,.14),transparent 60%),
+    #141424;
+  border-bottom:1px solid var(--jstt-line);
+}
+.jstt-hero-inner{
+  display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center;
+  padding:56px 0 48px;
+}
+.jstt-hero-title{font-size:46px;line-height:1.22;font-weight:900;letter-spacing:1px}
+.jstt-hero-title em{font-style:normal;background:linear-gradient(90deg,#ff7a45,#ffb347 60%,#5ce1e6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.jstt-hero-badges{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 20px}
+.jstt-badge{font-size:12.5px;border:1px solid #3d3d5c;background:#1d1d31;border-radius:99px;padding:4px 12px;color:#d3d3e6}
+.jstt-badge b{color:var(--jstt-cyan);font-weight:600}
+.jstt-hero-desc{color:#c8c8dc;font-size:15px;max-width:560px}
+.jstt-hero-actions{display:flex;gap:12px;margin-top:24px;flex-wrap:wrap}
+.jstt-btn{
+  border:none;border-radius:99px;padding:11px 24px;font-size:14.5px;font-weight:600;
+  transition:.2s;display:inline-flex;align-items:center;gap:7px;
+}
+.jstt-btn-primary{background:linear-gradient(90deg,#ff7a45,#ffb347);color:#1b1208}
+.jstt-btn-primary:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.jstt-btn-ghost{background:transparent;border:1px solid #45456a;color:#e6e6f5}
+.jstt-btn-ghost:hover{background:#22223a;border-color:var(--jstt-cyan)}
+.jstt-stats{display:flex;gap:30px;margin-top:30px;flex-wrap:wrap}
+.jstt-stat b{font-size:24px;font-weight:800;color:var(--jstt-brand-2);display:block;line-height:1.2}
+.jstt-stat span{font-size:12.5px;color:var(--jstt-ink-dim)}
+
+.jstt-hero-visual{position:relative}
+.jstt-hero-frame{
+  border-radius:22px;overflow:hidden;border:1px solid #3a3a58;
+  box-shadow:0 30px 70px -30px rgba(0,0,0,.9);
+  position:relative;aspect-ratio:16/11;
+}
+.jstt-hero-frame img{width:100%;height:100%;object-fit:cover}
+.jstt-hero-frame .jstt-frame-label{
+  position:absolute;left:14px;bottom:14px;
+  background:rgba(12,12,22,.78);border:1px solid #45456a;
+  border-radius:99px;font-size:12px;padding:4px 13px;color:#e2e2f0;backdrop-filter:blur(6px);
+}
+.jstt-hero-float{
+  position:absolute;right:-10px;top:-16px;
+  background:#23233a;border:1px solid #45456a;border-radius:14px;
+  padding:10px 15px;font-size:12.5px;color:#d5d5e8;box-shadow:0 14px 30px -14px #000;
+}
+.jstt-hero-float b{color:var(--jstt-cyan)}
+
+/* 关键词深度解析 */
+.jstt-deep{
+  background:var(--jstt-bg-soft);border:1px solid var(--jstt-line);border-radius:var(--jstt-radius);
+  padding:34px 34px 30px;
+}
+.jstt-deep p{color:#c6c6da;font-size:14.6px;margin-top:14px}
+.jstt-deep-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px}
+.jstt-deep-cell{background:#191928;border:1px solid #33334e;border-radius:12px;padding:16px 18px}
+.jstt-deep-cell h4{font-size:14.5px;color:var(--jstt-brand-2);margin-bottom:6px}
+.jstt-deep-cell p{margin:0;font-size:13.4px;color:#b6b6cc}
+
+/* 视频卡片 */
+.jstt-card-grid{display:grid;gap:22px}
+.jstt-grid-3{grid-template-columns:repeat(3,1fr)}
+.jstt-grid-2{grid-template-columns:repeat(2,1fr)}
+.jstt-vcard{
+  background:var(--jstt-card);border:1px solid var(--jstt-line);border-radius:var(--jstt-radius);
+  overflow:hidden;transition:.25s;display:flex;flex-direction:column;
+}
+.jstt-vcard:hover{transform:translateY(-5px);border-color:#55557d;box-shadow:0 22px 40px -24px #000}
+.jstt-vcover{position:relative;aspect-ratio:16/9;overflow:hidden}
+.jstt-vcover img{width:100%;height:100%;object-fit:cover;transition:.4s}
+.jstt-vcard:hover .jstt-vcover img{transform:scale(1.05)}
+.jstt-vcover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(8,8,16,.82))}
+.jstt-vplay{
+  position:absolute;right:12px;bottom:12px;z-index:2;
+  width:38px;height:38px;border-radius:50%;border:none;
+  background:rgba(255,122,69,.94);color:#1b1208;font-size:14px;
+  display:grid;place-items:center;transition:.2s;
+}
+.jstt-vplay:hover{transform:scale(1.12);background:#ffb347}
+.jstt-vtags{position:absolute;left:12px;top:12px;z-index:2;display:flex;gap:6px;flex-wrap:wrap}
+.jstt-vtag{font-size:11.5px;background:rgba(10,10,20,.72);border:1px solid rgba(255,255,255,.18);border-radius:99px;padding:2px 9px;color:#ececf6;backdrop-filter:blur(4px)}
+.jstt-vbody{padding:16px 17px 18px;display:flex;flex-direction:column;gap:9px;flex:1}
+.jstt-vtitle{font-size:16px;font-weight:700;line-height:1.5}
+.jstt-vsum{font-size:13.2px;color:var(--jstt-ink-dim);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.jstt-vmeta{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:auto;padding-top:8px;border-top:1px dashed #3a3a58}
+.jstt-author{display:flex;align-items:center;gap:8px;font-size:12.8px;color:#cfcfe4}
+.jstt-avatar{
+  width:28px;height:28px;border-radius:50%;flex:none;
+  display:grid;place-items:center;font-size:12.5px;font-weight:800;color:#15151f;
+}
+.jstt-vstats{display:flex;gap:12px;font-size:12.3px;color:#a9a9c2}
+.jstt-act{
+  border:none;background:transparent;color:#a9a9c2;font-size:12.4px;
+  display:inline-flex;align-items:center;gap:4px;padding:3px 4px;border-radius:6px;transition:.18s;
+}
+.jstt-act:hover{color:#fff;background:#2c2c46}
+.jstt-act.jstt-liked{color:var(--jstt-brand)}
+.jstt-act.jstt-saved{color:var(--jstt-cyan)}
+.jstt-vactions{display:flex;gap:4px;align-items:center}
+
+/* 焦点区 */
+.jstt-feature{display:grid;grid-template-columns:1.25fr 1fr;gap:22px}
+.jstt-feature-main{
+  position:relative;border-radius:20px;overflow:hidden;border:1px solid var(--jstt-line);
+  min-height:380px;display:flex;align-items:flex-end;
+}
+.jstt-feature-main img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.jstt-feature-main::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,20,.1),rgba(10,10,20,.92))}
+.jstt-feature-caption{position:relative;z-index:2;padding:26px 28px}
+.jstt-feature-caption h3{font-size:23px;line-height:1.4}
+.jstt-feature-caption p{color:#cdcde2;font-size:13.8px;margin-top:8px;max-width:520px}
+.jstt-feature-side{display:grid;gap:18px;grid-template-rows:1fr 1fr}
+
+/* 专题 */
+.jstt-topic-row{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.jstt-topic{
+  border:1px solid var(--jstt-line);border-radius:14px;overflow:hidden;background:#1b1b2c;
+  transition:.22s;
+}
+.jstt-topic:hover{border-color:#5a5a85;transform:translateY(-4px)}
+.jstt-topic img{aspect-ratio:16/10;width:100%;object-fit:cover}
+.jstt-topic-body{padding:14px 15px 16px}
+.jstt-topic-body h4{font-size:14.8px;line-height:1.5}
+.jstt-topic-body p{font-size:12.6px;color:var(--jstt-ink-dim);margin-top:5px}
+.jstt-topic-state{display:inline-block;margin-top:10px;font-size:11.5px;border-radius:99px;padding:2px 10px;background:#2b2334;color:var(--jstt-brand-2);border:1px solid #4a3a35}
+
+/* 创作者 */
+.jstt-creator-row{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.jstt-creator{
+  background:linear-gradient(180deg,#212135,#1a1a2b);border:1px solid var(--jstt-line);
+  border-radius:16px;padding:22px 18px;text-align:center;transition:.22s;
+}
+.jstt-creator:hover{border-color:var(--jstt-cyan);transform:translateY(-4px)}
+.jstt-creator-avatar{
+  width:62px;height:62px;border-radius:50%;margin:0 auto 12px;
+  display:grid;place-items:center;font-size:24px;font-weight:900;color:#15151f;
+}
+.jstt-creator h4{font-size:15.5px}
+.jstt-creator .jstt-domain{font-size:12px;color:var(--jstt-cyan);margin-top:2px}
+.jstt-creator p{font-size:12.6px;color:#aeaeC6;margin-top:8px;min-height:56px}
+.jstt-creator-nums{display:flex;justify-content:center;gap:14px;margin-top:10px;font-size:12px;color:#9f9fb9}
+.jstt-creator-nums b{color:#fff;display:block;font-size:14px}
+.jstt-creator button{margin-top:12px;border:1px solid #4a4a70;background:#26263d;color:#dedeed;border-radius:99px;font-size:12.3px;padding:5px 16px}
+
+/* 评价 */
+.jstt-review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.jstt-review{
+  background:#1c1c2d;border:1px solid var(--jstt-line);border-radius:14px;padding:18px 19px;
+  position:relative;
+}
+.jstt-review::before{
+  content:"“";position:absolute;right:16px;top:0;font-size:52px;color:#3a3a5c;line-height:1;font-family:Georgia,serif;
+}
+.jstt-review p{font-size:13.5px;color:#c9c9de;position:relative;z-index:1}
+.jstt-review-who{display:flex;align-items:center;gap:9px;margin-top:14px;font-size:12.6px;color:#a6a6c0}
+.jstt-review-who .jstt-avatar{width:26px;height:26px;font-size:11.5px}
+
+/* 榜单 */
+.jstt-rank{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.jstt-rank-col{background:#1a1a2b;border:1px solid var(--jstt-line);border-radius:14px;padding:18px 18px 12px}
+.jstt-rank-col h4{font-size:14.5px;margin-bottom:10px;color:var(--jstt-brand-2)}
+.jstt-rank-item{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px dashed #32324e;font-size:13.2px}
+.jstt-rank-item:last-child{border-bottom:none}
+.jstt-rank-no{width:22px;height:22px;border-radius:6px;background:#2a2a44;color:#cfcfe6;font-size:12px;display:grid;place-items:center;flex:none;font-weight:700}
+.jstt-rank-item:nth-child(2) .jstt-rank-no{background:#ff7a45;color:#1b1208}
+.jstt-rank-item:nth-child(3) .jstt-rank-no{background:#ffb347;color:#1b1208}
+.jstt-rank-item:nth-child(4) .jstt-rank-no{background:#5ce1e6;color:#15151f}
+.jstt-rank-heat{margin-left:auto;font-size:12px;color:#8f8faa}
+
+/* 灵感 */
+.jstt-idea-wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.jstt-idea{background:#1c1c2d;border:1px solid var(--jstt-line);border-radius:14px;padding:20px}
+.jstt-idea h4{font-size:15px;color:var(--jstt-cyan);margin-bottom:8px}
+.jstt-idea p{font-size:13.2px;color:#b9b9cf}
+.jstt-idea .jstt-idea-tag{display:inline-block;margin-top:12px;font-size:11.5px;border:1px solid #43436a;border-radius:99px;padding:2px 10px;color:#c6c6de}
+
+/* 动态 */
+.jstt-timeline{position:relative;padding-left:26px;border-left:1px solid #3a3a58;margin-top:8px}
+.jstt-timeline-item{position:relative;padding:0 0 22px 8px}
+.jstt-timeline-item::before{
+  content:"";position:absolute;left:-32px;top:7px;width:11px;height:11px;border-radius:50%;
+  background:var(--jstt-brand);box-shadow:0 0 0 4px rgba(255,122,69,.16);
+}
+.jstt-timeline-item time{font-size:12px;color:var(--jstt-cyan);letter-spacing:.5px}
+.jstt-timeline-item h4{font-size:14.8px;margin:4px 0 4px}
+.jstt-timeline-item p{font-size:13.2px;color:#b3b3ca}
+
+/* FAQ */
+.jstt-faq{display:grid;gap:12px}
+.jstt-faq details{
+  background:#1b1b2c;border:1px solid var(--jstt-line);border-radius:12px;
+  padding:14px 18px;transition:.2s;
+}
+.jstt-faq details[open]{border-color:#5a5a85;background:#1f1f33}
+.jstt-faq summary{font-size:14.5px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.jstt-faq summary::-webkit-details-marker{display:none}
+.jstt-faq summary::after{content:"+";color:var(--jstt-brand);font-size:19px;line-height:1}
+.jstt-faq details[open] summary::after{content:"−"}
+.jstt-faq p{font-size:13.4px;color:#b8b8d0;margin-top:10px}
+
+/* 联系 / 分享 */
+.jstt-contact{
+  display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch;
+}
+.jstt-contact-card{
+  background:linear-gradient(160deg,#24243c,#191928);
+  border:1px solid var(--jstt-line);border-radius:var(--jstt-radius);padding:28px;
+}
+.jstt-contact-card p{font-size:13.6px;color:#b9b9d0;margin-top:10px}
+.jstt-contact-list{margin-top:16px;display:grid;gap:9px;font-size:13.4px;color:#cfcfe6}
+.jstt-contact-list span{color:var(--jstt-brand-2);margin-right:8px}
+.jstt-share-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.jstt-share-btn{
+  border:1px solid #4a4a70;background:#25253b;color:#e0e0f0;border-radius:99px;
+  font-size:12.8px;padding:7px 16px;transition:.18s;
+}
+.jstt-share-btn:hover{background:#32324e;border-color:var(--jstt-brand)}
+
+/* 页脚 */
+.jstt-footer{border-top:1px solid var(--jstt-line);background:#101019;padding:42px 0 26px;margin-top:20px}
+.jstt-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:26px}
+.jstt-footer h5{font-size:13.5px;color:#dedeef;margin-bottom:12px;letter-spacing:.5px}
+.jstt-footer p,.jstt-footer a{font-size:12.9px;color:#9d9db5;line-height:2}
+.jstt-footer a:hover{color:var(--jstt-cyan)}
+.jstt-footer-bottom{
+  border-top:1px solid #26263c;margin-top:28px;padding-top:18px;
+  display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12.3px;color:#8b8ba4;
+}
+
+/* 弹窗 & Toast */
+.jstt-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);
+  background:#2b2b45;border:1px solid #4d4d78;color:#fff;border-radius:99px;
+  padding:10px 22px;font-size:13px;opacity:0;pointer-events:none;transition:.28s;z-index:200;
+}
+.jstt-toast.jstt-show{opacity:1;transform:translate(-50%,0)}
+.jstt-modal{
+  position:fixed;inset:0;background:rgba(6,6,14,.72);backdrop-filter:blur(4px);
+  display:none;place-items:center;z-index:180;padding:20px;
+}
+.jstt-modal.jstt-show{display:grid}
+.jstt-modal-box{
+  background:#1e1e31;border:1px solid #46466e;border-radius:18px;padding:26px 26px 22px;
+  max-width:460px;width:100%;
+}
+.jstt-modal-box h3{font-size:18px;margin-bottom:8px}
+.jstt-modal-box p{font-size:13.6px;color:#b9b9d0}
+.jstt-modal-close{
+  margin-top:18px;width:100%;border:none;border-radius:99px;padding:10px;
+  background:linear-gradient(90deg,#ff7a45,#ffb347);color:#1b1208;font-weight:700;font-size:14px;
+}
+.jstt-top-btn{
+  position:fixed;right:24px;bottom:26px;width:44px;height:44px;border-radius:50%;
+  border:1px solid #4a4a70;background:#26263d;color:#e6e6f4;font-size:17px;
+  display:grid;place-items:center;z-index:120;opacity:0;pointer-events:none;transition:.25s;
+}
+.jstt-top-btn.jstt-show{opacity:1;pointer-events:auto}
+.jstt-top-btn:hover{background:var(--jstt-brand);color:#1b1208;border-color:transparent}
+
+@media (max-width:1024px){
+  .jstt-hero-inner{grid-template-columns:1fr;gap:32px}
+  .jstt-grid-3,.jstt-topic-row,.jstt-creator-row,.jstt-review-grid,.jstt-rank,.jstt-idea-wrap{grid-template-columns:repeat(2,1fr)}
+  .jstt-feature{grid-template-columns:1fr}
+  .jstt-deep-grid{grid-template-columns:1fr}
+  .jstt-footer-grid{grid-template-columns:1fr 1fr}
+  .jstt-contact{grid-template-columns:1fr}
+  .jstt-search input{width:160px}
+}
+@media (max-width:720px){
+  .jstt-burger{display:block}
+  .jstt-nav{
+    display:none;width:100%;order:5;padding-top:10px;
+  }
+  .jstt-nav.jstt-nav-open{display:flex}
+  .jstt-header-inner{flex-wrap:wrap}
+  .jstt-search{order:4;flex:1}
+  .jstt-search input{width:100%}
+  .jstt-hero-title{font-size:33px}
+  .jstt-grid-3,.jstt-grid-2,.jstt-topic-row,.jstt-creator-row,.jstt-review-grid,.jstt-rank,.jstt-idea-wrap{grid-template-columns:1fr}
+  .jstt-h2{font-size:23px}
+  .jstt-section{padding:40px 0}
+  .jstt-deep{padding:24px 20px}
+  .jstt-footer-grid{grid-template-columns:1fr}
+  .jstt-stats{gap:20px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="jstt-sticky-head">
+  <div class="jstt-notice-bar" aria-label="站点公告">
+    <span class="jstt-notice-tag">官方发布</span>
+    <div class="jstt-notice-track">
+      <span>「城市微光·夜游计划」第二季 12 月 6 日上线，首批 18 支原创短片开放预约</span>
+      <span>创作者扶持计划报名通道开启，面向城市影像与微醺主题开放投稿</span>
+      <span>2026 年度精选片单更新：新增 24 支正版高清作品与 6 篇创作手记</span>
+      <span>「城市微光·夜游计划」第二季 12 月 6 日上线，首批 18 支原创短片开放预约</span>
+      <span>创作者扶持计划报名通道开启，面向城市影像与微醺主题开放投稿</span>
+      <span>2026 年度精选片单更新：新增 24 支正版高清作品与 6 篇创作手记</span>
+    </div>
+  </div>
+
+  <header class="jstt-header">
+    <div class="jstt-header-inner">
+      <a class="jstt-logo" href="#jstt-top" aria-label="酒色蝌蚪91 品牌首页">
+        <span class="jstt-logo-mark">◎</span>
+        <span>酒色蝌蚪<em>91</em></span>
+      </a>
+      <button class="jstt-burger" id="jsttBurger" aria-expanded="false" aria-controls="jsttNav">☰</button>
+      <nav class="jstt-nav" id="jsttNav" aria-label="主导航">
+        <a href="#jstt-top" class="jstt-nav-active">首页</a>
+        <a href="#jstt-focus">焦点</a>
+        <a href="#jstt-hot">热门</a>
+        <a href="#jstt-topics">专题</a>
+        <a href="#jstt-creators">创作者</a>
+        <a href="#jstt-reviews">口碑</a>
+        <a href="#jstt-news">企业动态</a>
+        <a href="#jstt-faq">帮助</a>
+        <a href="#jstt-contact">联系</a>
+      </nav>
+      <div class="jstt-search">
+        <input type="search" id="jsttSearchInput" placeholder="搜索作品、话题、创作者" aria-label="站内搜索">
+        <div class="jstt-search-feedback" id="jsttSearchFeedback"></div>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="jstt-top">
+
+  <!-- 首屏 -->
+  <section class="jstt-hero">
+    <div class="jstt-wrap">
+      <div class="jstt-hero-inner">
+        <div>
+          <div class="jstt-eyebrow">品牌官方网站</div>
+          <h1 class="jstt-hero-title">酒色蝌蚪<em>91</em></h1>
+          <div class="jstt-hero-badges">
+            <span class="jstt-badge"><b>原创</b> 城市夜游影像</span>
+            <span class="jstt-badge"><b>正版</b> 高清片库</span>
+            <span class="jstt-badge"><b>社区</b> 创作者共创</span>
+            <span class="jstt-badge"><b>深耕</b> 微醺生活方式</span>
+          </div>
+          <p class="jstt-hero-desc">
+            酒色蝌蚪91 是一家专注于城市夜游与微醺生活方式的视频品牌企业。我们以原创内容为根基，搭建从创作、发布到交流的高品质内容生态，让每一帧真实的夜色被认真记录。
+          </p>
+          <div class="jstt-hero-actions">
+            <button class="jstt-btn jstt-btn-primary" data-jstt-modal="投稿入口" data-jstt-modal-text="欢迎通过站内投稿页提交作品信息与样片链接，编辑部将在 5 个工作日内回复。请确保内容为本人原创，并具备完整授权。">立即投稿</button>
+            <a class="jstt-btn jstt-btn-ghost" href="#jstt-hot">浏览热门内容</a>
+            <a class="jstt-btn jstt-btn-ghost" href="#jstt-deep">了解品牌</a>
+          </div>
+          <div class="jstt-stats">
+            <div class="jstt-stat"><b>3,280+</b><span>原创短片入库</span></div>
+            <div class="jstt-stat"><b>46.8万</b><span>注册创作者</span></div>
+            <div class="jstt-stat"><b>1,920万</b><span>月度播放次数</span></div>
+          </div>
+        </div>
+        <div class="jstt-hero-visual">
+          <div class="jstt-hero-frame">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 440'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23131830'/%3E%3Cstop offset='.55' stop-color='%23352b4d'/%3E%3Cstop offset='1' stop-color='%237a3d4a'/%3E%3C/linearGradient%3E%3ClinearGradient id='win' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ffb347'/%3E%3Cstop offset='1' stop-color='%23ff7a45'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='440' fill='url(%23sky)'/%3E%3Ccircle cx='500' cy='96' r='42' fill='%23ffd9a0' opacity='.85'/%3E%3Cg fill='%230f1224'%3E%3Crect x='20' y='190' width='92' height='250'/%3E%3Crect x='124' y='150' width='74' height='290'/%3E%3Crect x='210' y='220' width='104' height='220'/%3E%3Crect x='326' y='168' width='86' height='272'/%3E%3Crect x='424' y='236' width='70' height='204'/%3E%3Crect x='506' y='188' width='112' height='252'/%3E%3C/g%3E%3Cg fill='url(%23win)' opacity='.9'%3E%3Crect x='32' y='208' width='14' height='18'/%3E%3Crect x='58' y='208' width='14' height='18'/%3E%3Crect x='84' y='246' width='14' height='18'/%3E%3Crect x='138' y='172' width='12' height='16'/%3E%3Crect x='164' y='206' width='12' height='16'/%3E%3Crect x='138' y='250' width='12' height='16'/%3E%3Crect x='228' y='240' width='16' height='20'/%3E%3Crect x='258' y='240' width='16' height='20'/%3E%3Crect x='228' y='286' width='16' height='20'/%3E%3Crect x='340' y='192' width='13' height='17'/%3E%3Crect x='368' y='226' width='13' height='17'/%3E%3Crect x='340' y='262' width='13' height='17'/%3E%3Crect x='440' y='256' width='13' height='17'/%3E%3Crect x='522' y='208' width='15' height='19'/%3E%3Crect x='552' y='208' width='15' height='19'/%3E%3Crect x='582' y='246' width='15' height='19'/%3E%3C/g%3E%3Crect x='0' y='384' width='640' height='56' fill='%230b0d1a'/%3E%3Cg stroke='%235ce1e6' stroke-width='2' opacity='.65'%3E%3Cpath d='M0 410 H640'/%3E%3C/g%3E%3Ccircle cx='150' cy='352' r='9' fill='%23ff7a45'/%3E%3Ccircle cx='260' cy='366' r='6' fill='%23ffb347'/%3E%3Ccircle cx='470' cy='358' r='7' fill='%235ce1e6'/%3E%3C/svg%3E" alt="酒色蝌蚪91 城市夜色主视觉：高楼灯火与霓虹街道">
+            <span class="jstt-frame-label">城市微光 · 夜游影像计划</span>
+          </div>
+          <div class="jstt-hero-float">今夜上线 <b>+6</b> 支原创短片</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关键词解析 -->
+  <section class="jstt-section" id="jstt-deep">
+    <div class="jstt-wrap">
+      <div class="jstt-deep jstt-skip-anchor">
+        <div class="jstt-eyebrow">品牌深度解析</div>
+        <h2 class="jstt-h2">关于 <span>酒色蝌蚪91</span> 的定位与内容生态</h2>
+        <p>
+          酒色蝌蚪91 作为一家持续运营的视频品牌企业，把自己定义为“城市夜色的观察者与记录者”。我们不把夜晚简单理解为喧嚣或寂寥，而是将其看作一座城市最松弛、最真实的表达时刻。街边小店的暖灯、深夜公交的最后一排、朋友间碰杯时的一句闲谈，这些细碎却具体的瞬间，构成了品牌内容的基本语法。官方网站所呈现的每一支原创短片，都要求创作者先走进现场，再回到剪辑台前，用镜头语言完成一次有温度、有判断的转述。
+        </p>
+        <p>
+          在内容结构上，品牌围绕城市探索、在地文化、生活方式、人物访谈与创作幕后五个主线展开。我们鼓励创作者以系列化的方式持续更新，而不是追逐单条爆款；我们更看重一支作品在三个月、半年后是否依然成立。这种对品质的坚持，让平台逐步形成了以口碑驱动的内容生态：用户会因为一支讲透深夜面馆的短片而反复回到站点，也会因为一位创作者的长期跟踪记录而成为社区常客。酒色蝌蚪91 希望提供的不是一次性消费，而是值得信赖的长期陪伴。
+        </p>
+        <p>
+          作为面向创作者与企业双向服务的平台，我们同样重视内容的规范与版权。所有进入官方精选的内容均需完成原创确认与授权登记，正版高清片源统一转码、统一封面规范，确保观看体验与创作者权益都得到保障。对于品牌合作与商业拍摄，我们坚持内容先行、真实表达优先，在商业目标与影像品质之间寻找平衡，不因短期收益损伤内容生态的长期健康。这也是酒色蝌蚪91 在行业里被反复提及的“匠心”底色。
+        </p>
+        <p>
+          未来，品牌将继续深耕垂直领域，在城市影像这条并不宽阔的赛道上做深做透。我们会持续投入创作者扶持计划，开放选题库、拍摄资源与后期支持；也会通过专题企划、年度片单与线下放映，把屏幕里的夜色带到真实的街巷中。官方网站会同步更新企业动态、项目招募与内容榜单，让每一位关注酒色蝌蚪91 的用户，都能第一时间看到品牌在做什么、为什么这样做。用户至上不是口号，而是我们每一次内容决策的起点。
+        </p>
+        <div class="jstt-deep-grid">
+          <div class="jstt-deep-cell">
+            <h4>城市夜游影像</h4>
+            <p>以城市入夜后的街巷、店铺、交通与人群为对象，记录城市真实的生活纹理与烟火气息。</p>
+          </div>
+          <div class="jstt-deep-cell">
+            <h4>微醺与社交叙事</h4>
+            <p>围绕小酒馆、深夜食堂、朋友聚会等场景，讲述成年人松弛而克制的情绪表达。</p>
+          </div>
+          <div class="jstt-deep-cell">
+            <h4>创作者共创社区</h4>
+            <p>开放选题、器材与后期资源，鼓励系列化创作，让真实表达获得持续回报。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 -->
+  <section class="jstt-section jstt-section-tight" id="jstt-focus">
+    <div class="jstt-wrap">
+      <div class="jstt-eyebrow">焦点推荐</div>
+      <h2 class="jstt-h2">本周 <span>值得一看</span> 的品牌精选</h2>
+      <p class="jstt-sub">由官方编辑部与社区共同筛选，聚焦真实、耐看、有细节的城市影像作品。</p>
+      <div class="jstt-feature" style="margin-top:24px">
+        <article class="jstt-feature-main">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2324172b'/%3E%3Cstop offset='1' stop-color='%23412a2a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='400' fill='url(%23bg)'/%3E%3Ccircle cx='510' cy='90' r='58' fill='%23ffb347' opacity='.35'/%3E%3Crect x='70' y='150' width='230' height='14' rx='7' fill='%23ff7a45' opacity='.8'/%3E%3Crect x='70' y='185' width='160' height='10' rx='5' fill='%23e8e8f4' opacity='.5'/%3E%3Cg fill='%23ffd9a0' opacity='.85'%3E%3Ccircle cx='130' cy='290' r='26'/%3E%3Ccircle cx='210' cy='290' r='26'/%3E%3Ccircle cx='290' cy='290' r='26'/%3E%3C/g%3E%3Cg fill='%2312121f'%3E%3Cpath d='M104 290 h52 v46 h-52z'/%3E%3Cpath d='M184 290 h52 v46 h-52z'/%3E%3Cpath d='M264 290 h52 v46 h-52z'/%3E%3C/g%3E%3Cpath d='M60 336 H580' stroke='%23ff7a45' stroke-width='2' opacity='.5'/%3E%3C/svg%3E" alt="焦点影片《深夜面馆的第七张桌子》封面：暖光与面碗">
+          <div class="jstt-feature-caption">
+            <span class="jstt-badge">本周编辑首选</span>
+            <h3 style="margin-top:10px">深夜面馆的第七张桌子</h3>
+            <p>一家开了十九年的街角面馆，第七张桌子总是留给夜归的人。导演用 14 分钟记录城市夜深后的另一种秩序。</p>
+          </div>
+        </article>
+        <div class="jstt-feature-side">
+          <article class="jstt-vcard">
+            <div class="jstt-vcover">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%2314262b'/%3E%3Cg stroke='%235ce1e6' stroke-width='1.4' opacity='.5'%3E%3Cpath d='M0 160 L90 110 L180 150 L270 96 L360 138 L400 118' fill='none'/%3E%3C/g%3E%3Ccircle cx='320' cy='58' r='26' fill='%235ce1e6' opacity='.55'/%3E%3Crect x='24' y='176' width='90' height='8' rx='4' fill='%23ffb347'/%3E%3C/svg%3E" alt="《末班地铁的十二分钟》封面：冷调站台与轨道灯">
+              <div class="jstt-vtags"><span class="jstt-vtag">城市探索</span></div>
+            </div>
+            <div class="jstt-vbody">
+              <h4 class="jstt-vtitle">末班地铁的十二分钟</h4>
+              <p class="jstt-vsum">从终点站折返的末班车厢里，记录十二分钟的人间默契。</p>
+            </div>
+          </article>
+          <article class="jstt-vcard">
+            <div class="jstt-vcover">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23251522'/%3E%3Ccircle cx='120' cy='112' r='60' fill='%23ff7a45' opacity='.45'/%3E%3Ccircle cx='230' cy='112' r='60' fill='%23ffb347' opacity='.4'/%3E%3Ccircle cx='340' cy='112' r='60' fill='%235ce1e6' opacity='.35'/%3E%3Crect x='60' y='180' width='280' height='10' rx='5' fill='%23f4f4fa' opacity='.35'/%3E%3C/svg%3E" alt="《一杯酒的三分钟沉默》封面：暖色光斑与吧台">
+              <div class="jstt-vtags"><span class="jstt-vtag">人物访谈</span></div>
+            </div>
+            <div class="jstt-vbody">
+              <h4 class="jstt-vtitle">一杯酒的三分钟沉默</h4>
+              <p class="jstt-vsum">三位夜班工作者聊了聊，那些说不出口却真实存在的夜晚。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 热门视频流 -->
+  <section class="jstt-section" id="jstt-hot">
+    <div class="jstt-wrap">
+      <div class="jstt-eyebrow">热门内容</div>
+      <h2 class="jstt-h2">持续更新的 <span>原创短片</span> 与真实记录</h2>
+      <p class="jstt-sub">来自社区的原创作品，涵盖城市夜游、在地文化、生活记录与创作幕后。点击视频卡片下方按钮可点赞、收藏与分享。</p>
+
+      <div class="jstt-card-grid jstt-grid-3" style="margin-top:26px">
+
+        <article class="jstt-vcard">
+          <div class="jstt-vcover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%230f1a26'/%3E%3Cg fill='%23ffd9a0' opacity='.8'%3E%3Crect x='40' y='120' width='26' height='60'/%3E%3Crect x='86' y='100' width='26' height='80'/%3E%3Crect x='132' y='132' width='26' height='48'/%3E%3C/g%3E%3Cg fill='%235ce1e6' opacity='.55'%3E%3Crect x='220' y='86' width='26' height='94'/%3E%3Crect x='266' y='112' width='26' height='68'/%3E%3C/g%3E%3Crect x='0' y='188' width='400' height='8' fill='%23ff7a45' opacity='.6'/%3E%3C/svg%3E" alt="《凌晨两点的便利店》封面：冷调货架与灯光">
+            <div class="jstt-vtags"><span class="jstt-vtag">日常记录</span></div>
+            <button class="jstt-vplay" aria-label="查看作品简介" data-jstt-modal="作品简介" data-jstt-modal-text="《凌晨两点的便利店》记录了城市入夜后最稳定的一个坐标。短片以固定机位与跟拍交替，呈现店员、夜归者与外卖骑手在十分钟内的交汇。">▶</button>
+          </div>
+          <div class="jstt-vbody">
+            <h3 class="jstt-vtitle">凌晨两点的便利店</h3>
+            <p class="jstt-vsum">货架、热饮与灯光之间，藏着城市最稳定的夜间秩序。</p>
+            <div class="jstt-vmeta">
+              <span class="jstt-author"><span class="jstt-avatar" style="background:#ffb347">夜</span>夜行灯箱</span>
+              <div class="jstt-vstats">
+                <button class="jstt-act" data-jstt-like data-count="2186">♡ <span>2186</span></button>
+                <button class="jstt-act" data-jstt-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="jstt-vcard">
+          <div class="jstt-vcover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Cdefs%3E%3ClinearGradient id='g2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23331c2c'/%3E%3Cstop offset='1' stop-color='%23663a2e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='400' height='225' fill='url(%23g2)'/%3E%3Cpath d='M60 180 Q140 60 220 150 T360 100' stroke='%23ffb347' stroke-width='3' fill='none' opacity='.8'/%3E%3Ccircle cx='220' cy='150' r='10' fill='%23ff7a45'/%3E%3Ccircle cx='360' cy='100' r='7' fill='%235ce1e6'/%3E%3Crect x='30' y='30' width='70' height='10' rx='5' fill='%23f4f4fa' opacity='.4'/%3E%3C/svg%3E" alt="《走完这条街再回家》封面：蜿蜒街道与暖光">
+            <div class="jstt-vtags"><span class="jstt-vtag">城市探索</span></div>
+          </div>
+          <div class="jstt-vbody">
+            <h3 class="jstt-vtitle">走完这条街再回家</h3>
+            <p class="jstt-vsum">一条两点九公里的老街，十九家关门很晚的小店，一次完整的夜行。</p>
+            <div class="jstt-vmeta">
+              <span class="jstt-author"><span class="jstt-avatar" style="background:#ff7a45">街</span>街角取景器</span>
+              <div class="jstt-vstats">
+                <button class="jstt-act" data-jstt-like data-count="1742">♡ <span>1742</span></button>
+                <button class="jstt-act" data-jstt-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="jstt-vcard">
+          <div class="jstt-vcover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23120f1e'/%3E%3Ccircle cx='200' cy='112' r='76' fill='none' stroke='%235ce1e6' stroke-width='2' opacity='.6'/%3E%3Ccircle cx='200' cy='112' r='48' fill='none' stroke='%23ff7a45' stroke-width='2' opacity='.7'/%3E%3Ccircle cx='200' cy='112' r='20' fill='%23ffb347'/%3E%3Cg fill='%23f4f4fa' opacity='.45'%3E%3Ccircle cx='60' cy='50' r='3'/%3E%3Ccircle cx='340' cy='70' r='3'/%3E%3Ccircle cx='300' cy='180' r='3'/%3E%3Ccircle cx='80' cy='170' r='3'/%3E%3C/g%3E%3C/svg%3E" alt="《车窗外的城市缓慢退后》封面：圆环光斑与夜行车窗">
+            <div class="jstt-vtags"><span class="jstt-vtag">治愈影像</span></div>
+          </div>
+          <div class="jstt-vbody">
+            <h3 class="jstt-vtitle">车窗外的城市缓慢退后</h3>
+            <p class="jstt-vsum">夜里十一点四十分，从城西到城东的一段匀速影像，没有配乐。</p>
+            <div class="jstt-vmeta">
+              <span class="jstt-author"><span class="jstt-avatar" style="background:#5ce1e6">慢</span>慢速快门</span>
+              <div class="jstt-vstats">
+                <button class="jstt-act" data-jstt-like data-count="1310">♡ <span>1310</span></button>
+                <button class="jstt-act" data-jstt-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="jstt-vcard">
+          <div class="jstt-vcover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23211b14'/%3E%3Cg fill='%23ffb347'%3E%3Crect x='56' y='70' width='54' height='84' rx='8'/%3E%3Crect x='130' y='50' width='54' height='104' rx='8'/%3E%3Crect x='204' y='86' width='54' height='68' rx='8'/%3E%3C/g%3E%3Cpath d='M40 176 H360' stroke='%23ff7a45' stroke-width='4' opacity='.7'/%3E%3C/svg%3E" alt="《小酒馆老板的账本》封面：酒瓶排列与暖色吧台">
+            <div class="jstt-vtags"><span class="jstt-vtag">人物访谈</span></div>
+          </div>
+          <div class="jstt-vbody">
+            <h3 class="jstt-vtitle">小酒馆老板的账本</h3>
+            <p class="jstt-vsum">他记了八年账，也记下了八年里每个熟客常坐的位置。</p>
+            <div class="jstt-vmeta">
+              <span class="jstt-author"><span class="jstt-avatar" style="background:#a78bfa">谈</span>深夜访谈录</span>
+              <div class="jstt-vstats">
+                <button class="jstt-act" data-jstt-like data-count="986">♡ <span>986</span></button>
+                <button class="jstt-act" data-jstt-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="jstt-vcard">
+          <div class="jstt-vcover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%230d1b18'/%3E%3Cg stroke='%235ce1e6' stroke-width='2' fill='none' opacity='.7'%3E%3Cpath d='M40 170 q40 -70 80 0 t80 0 t80 0 t80 0'/%3E%3C/g%3E%3Cg fill='%23ff7a45' opacity='.75'%3E%3Ccircle cx='90' cy='90' r='5'/%3E%3Ccircle cx='210' cy='70' r='5'/%3E%3Ccircle cx='320' cy='96' r='5'/%3E%3C/g%3E%3C/svg%3E" alt="《雨夜里的十分钟》封面：雨线与霓虹反光">
+            <div class="jstt-vtags"><span class="jstt-vtag">创作幕后</span></div>
+          </div>
+          <div class="jstt-vbody">
+            <h3 class="jstt-vtitle">雨夜里的十分钟</h3>
+            <p class="jstt-vsum">一场突如其来的夜雨，成了这支短片唯一的灯光师。</p>
+            <div class="jstt-vmeta">
+              <span class="jstt-author"><span class="jstt-avatar" style="background:#34d399">雨</span>雨天片场</span>
+              <div class="jstt-vstats">
+                <button class="jstt-act" data-jstt-like data-count="1528">♡ <span>1528</span></button>
+                <button class="jstt-act" data-jstt-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="jstt-vcard">
+          <div class="jstt-vcover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%231b1626'/%3E%3Cg fill='%23ffb347' opacity='.85'%3E%3Crect x='50' y='140' width='40' height='50' rx='6'/%3E%3Crect x='110' y='120' width='40' height='70' rx='6'/%3E%3Crect x='170' y='150' width='40' height='40' rx='6'/%3E%3C/g%3E%3Crect x='230' y='100' width='120' height='90' rx='10' fill='%235ce1e6' opacity='.35'/%3E%3Ccircle cx='290' cy='70' r='22' fill='%23f4f4fa' opacity='.25'/%3E%3C/svg%3E" alt="《把夜宵做成一场仪式》封面：夜宵桌面与暖色餐盘">
+            <div class="jstt-vtags"><span class="jstt-vtag">生活方式</span></div>
+          </div>
+          <div class="jstt-vbody">
+            <h3 class="jstt-vtitle">把夜宵做成一场仪式</h3>
+            <p class="jstt-vsum">一个人也要认真吃饭：三十分钟夜宵，像准备一场小型放映。</p>
+            <div class="jstt-vmeta">
+              <span class="jstt-author"><span class="jstt-avatar" style="background:#f472b6">食</span>夜宵研究所</span>
+              <div class="jstt-vstats">
+                <button class="jstt-act" data-jstt-like data-count="2043">♡ <span>2043</span></button>
+                <button class="jstt-act" data-jstt-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="jstt-vcard">
+          <div class="jstt-vcover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23101426'/%3E%3Cg stroke='%23ff7a45' stroke-width='1.6' opacity='.65'%3E%3Cpath d='M0 60 H400'/%3E%3Cpath d='M0 120 H400'/%3E%3Cpath d='M0 180 H400'/%3E%3C/g%3E%3Cg fill='%23ffd9a0'%3E%3Ccircle cx='90' cy='60' r='6'/%3E%3Ccircle cx='230' cy='120' r='6'/%3E%3Ccircle cx='330' cy='180' r='6'/%3E%3C/g%3E%3Crect x='20' y='190' width='140' height='8' rx='4' fill='%235ce1e6' opacity='.6'/%3E%3C/svg%3E" alt="《同一条街的三种走法》封面：线条与光点构成的街景">
+            <div class="jstt-vtags"><span class="jstt-vtag">经验分享</span></div>
+          </div>
+          <div class="jstt-vbody">
+            <h3 class="jstt-vtitle">同一条街的三种走法</h3>
+            <p class="jstt-vsum">同样的路线，换三种时间出发，夜景的叙事完全不同。</p>
+            <div class="jstt-vmeta">
+              <span class="jstt-author"><span class="jstt-avatar" style="background:#facc15">行</span>步行主义</span>
+              <div class="jstt-vstats">
+                <button class="jstt-act" data-jstt-like data-count="1174">♡ <span>1174</span></button>
+                <button class="jstt-act" data-jstt-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="jstt-vcard">
+          <div class="jstt-vcover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%231a1224'/%3E%3Cg fill='none' stroke='%23a78bfa' stroke-width='2' opacity='.7'%3E%3Ccircle cx='140' cy='112' r='56'/%3E%3Ccircle cx='250' cy='112' r='56'/%3E%3C/g%3E%3Ccircle cx='195' cy='112' r='9' fill='%23ffb347'/%3E%3C/svg%3E" alt="《听，城市在夜里换气》封面：双圆交叠与声波意象">
+            <div class="jstt-vtags"><span class="jstt-vtag">声音记录</span></div>
+          </div>
+          <div class="jstt-vbody">
+            <h3 class="jstt-vtitle">听，城市在夜里换气</h3>
+            <p class="jstt-vsum">没有旁白，只有环境声：空调外机、远处车流与楼道的灯。</p>
+            <div class="jstt-vmeta">
+              <span class="jstt-author"><span class="jstt-avatar" style="background:#60a5fa">声</span>拾音计划</span>
+              <div class="jstt-vstats">
+                <button class="jstt-act" data-jstt-like data-count="842">♡ <span>842</span></button>
+                <button class="jstt-act" data-jstt-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="jstt-vcard">
+          <div class="jstt-vcover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23140e1c'/%3E%3Cg fill='%23ff7a45' opacity='.8'%3E%3Crect x='60' y='150' width='60' height='40' rx='6'/%3E%3Crect x='140' y='120' width='60' height='70' rx='6'/%3E%3Crect x='220' y='96' width='60' height='94' rx='6'/%3E%3Crect x='300' y='140' width='40' height='50' rx='6'/%3E%3C/g%3E%3Crect x='40' y='200' width='320' height='6' rx='3' fill='%23ffb347' opacity='.6'/%3E%3C/svg%3E" alt="《天台放映会的前一夜》封面：天台与投影设备">
+            <div class="jstt-vtags"><span class="jstt-vtag">社区活动</span></div>
+          </div>
+          <div class="jstt-vbody">
+            <h3 class="jstt-vtitle">天台放映会的前一夜</h3>
+            <p class="jstt-vsum">十二个人、一台旧投影，把一部短片搬上了城市上空。</p>
+            <div class="jstt-vmeta">
+              <span class="jstt-author"><span class="jstt-avatar" style="background:#fb923c">映</span>天台放映组</span>
+              <div class="jstt-vstats">
+                <button class="jstt-act" data-jstt-like data-count="1376">♡ <span>1376</span></button>
+                <button class="jstt-act" data-jstt-save>☆</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="jstt-section jstt-section-tight" id="jstt-topics">
+    <div class="jstt-wrap">
+      <div class="jstt-eyebrow">专题企划</div>
+      <h2 class="jstt-h2">围绕 <span>城市与夜色</span> 的长期企划</h2>
+      <p class="jstt-sub">企划由品牌编辑部发起，面向全社区开放投稿与共创，入选作品将进入官方专题页与年度片单。</p>
+      <div class="jstt-topic-row" style="margin-top:24px">
+        <article class="jstt-topic">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%2317262f'/%3E%3Ccircle cx='300' cy='70' r='38' fill='%23ffd9a0' opacity='.7'/%3E%3Cg fill='%230d1620'%3E%3Crect x='30' y='130' width='70' height='120'/%3E%3Crect x='114' y='100' width='54' height='150'/%3E%3Crect x='182' y='150' width='84' height='100'/%3E%3C/g%3E%3Cg fill='%235ce1e6' opacity='.7'%3E%3Crect x='44' y='146' width='10' height='14'/%3E%3Crect x='130' y='116' width='10' height='14'/%3E%3Crect x='198' y='166' width='10' height='14'/%3E%3C/g%3E%3C/svg%3E" alt="专题《城市微光》封面：夜色楼群与月光">
+          <div class="jstt-topic-body">
+            <h4>城市微光</h4>
+            <p>记录入夜后仍在运转的城市角落，第二季共 18 支短片。</p>
+            <span class="jstt-topic-state">更新中 · 12 月上线</span>
+          </div>
+        </article>
+        <article class="jstt-topic">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%23281a1a'/%3E%3Cg fill='%23ff7a45' opacity='.85'%3E%3Crect x='70' y='120' width='34' height='90' rx='8'/%3E%3Crect x='122' y='90' width='34' height='120' rx='8'/%3E%3Crect x='174' y='140' width='34' height='70' rx='8'/%3E%3C/g%3E%3Crect x='250' y='80' width='120' height='130' rx='12' fill='%23ffb347' opacity='.3'/%3E%3C/svg%3E" alt="专题《微醺时刻》封面：酒瓶与暖色光晕">
+          <div class="jstt-topic-body">
+            <h4>微醺时刻</h4>
+            <p>关于小酒馆、深夜食堂与朋友聚会的克制叙事。</p>
+            <span class="jstt-topic-state">长期征集中</span>
+          </div>
+        </article>
+        <article class="jstt-topic">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%23131c2b'/%3E%3Cg stroke='%23a78bfa' stroke-width='2' fill='none' opacity='.7'%3E%3Cpath d='M40 190 q60 -110 120 0 t120 0'/%3E%3C/g%3E%3Ccircle cx='200' cy='120' r='40' fill='%23ff7a45' opacity='.4'/%3E%3C/svg%3E" alt="专题《一条街的十九年》封面：线条构成的街道透视">
+          <div class="jstt-topic-body">
+            <h4>一条街的十九年</h4>
+            <p>用时间跨度记录同一条街的变化与不变。</p>
+            <span class="jstt-topic-state">已完结 · 6 集</span>
+          </div>
+        </article>
+        <article class="jstt-topic">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%23131d1a'/%3E%3Cg fill='%2334d399' opacity='.7'%3E%3Crect x='60' y='150' width='60' height='60' rx='8'/%3E%3Crect x='140' y='120' width='60' height='90' rx='8'/%3E%3Crect x='220' y='90' width='60' height='120' rx='8'/%3E%3C/g%3E%3Ccircle cx='330' cy='80' r='26' fill='%23ffd9a0' opacity='.6'/%3E%3C/svg%3E" alt="专题《夜色里的手艺人》封面：工作台与工具剪影">
+          <div class="jstt-topic-body">
+            <h4>夜色里的手艺人</h4>
+            <p>夜间仍在工作的人，和他们手中的技艺。</p>
+            <span class="jstt-topic-state">招募中 · 可报名</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者矩阵 -->
+  <section class="jstt-section" id="jstt-creators">
+    <div class="jstt-wrap">
+      <div class="jstt-eyebrow">创作者矩阵</div>
+      <h2 class="jstt-h2">与 <span>品牌共同成长</span> 的内容创作者</h2>
+      <p class="jstt-sub">他们来自不同城市与行业，却都在用镜头认真记录真实的夜晚。点击头像可查看创作者档案。</p>
+      <div class="jstt-creator-row" style="margin-top:24px">
+        <article class="jstt-creator">
+          <button class="jstt-creator-avatar" style="background:linear-gradient(140deg,#ffb347,#ff7a45);border:none" data-jstt-modal="创作者档案" data-jstt-modal-text="夜行灯箱，城市夜游影像创作者，擅长固定机位与长镜头叙事，代表作《凌晨两点的便利店》《末班地铁的十二分钟》。">夜</button>
+          <h4>夜行灯箱</h4>
+          <div class="jstt-domain">城市探索 · 长镜头</div>
+          <p>相信夜晚会说话。持续记录便利店、地铁与街角的稳定瞬间。</p>
+          <div class="jstt-creator-nums">
+            <span><b>86</b>作品</span>
+            <span><b>12.4万</b>关注</span>
+          </div>
+          <button data-jstt-modal="关注创作者" data-jstt-modal-text="已向 夜行灯箱 发送关注请求，后续更新将在消息中心提醒。">+ 关注</button>
+        </article>
+        <article class="jstt-creator">
+          <button class="jstt-creator-avatar" style="background:linear-gradient(140deg,#5ce1e6,#60a5fa);border:none" data-jstt-modal="创作者档案" data-jstt-modal-text="慢速快门，专注治愈影像与城市空镜，追求不做过多干预的观察式拍摄。">慢</button>
+          <h4>慢速快门</h4>
+          <div class="jstt-domain">治愈影像 · 空镜</div>
+          <p>不急着讲故事，先把画面拍好看。擅长车窗、雨夜与灯光。</p>
+          <div class="jstt-creator-nums">
+            <span><b>52</b>作品</span>
+            <span><b>8.7万</b>关注</span>
+          </div>
+          <button data-jstt-modal="关注创作者" data-jstt-modal-text="已向 慢速快门 发送关注请求，后续更新将在消息中心提醒。">+ 关注</button>
+        </article>
+        <article class="jstt-creator">
+          <button class="jstt-creator-avatar" style="background:linear-gradient(140deg,#a78bfa,#f472b6);border:none" data-jstt-modal="创作者档案" data-jstt-modal-text="深夜访谈录，人物访谈方向创作者，关注夜班工作者与小微经营者，擅长在安静对话中提炼细节。">谈</button>
+          <h4>深夜访谈录</h4>
+          <div class="jstt-domain">人物访谈 · 纪实</div>
+          <p>让说话慢一点，让被拍摄的人先放松下来。</p>
+          <div class="jstt-creator-nums">
+            <span><b>41</b>作品</span>
+            <span><b>6.9万</b>关注</span>
+          </div>
+          <button data-jstt-modal="关注创作者" data-jstt-modal-text="已向 深夜访谈录 发送关注请求，后续更新将在消息中心提醒。">+ 关注</button>
+        </article>
+        <article class="jstt-creator">
+          <button class="jstt-creator-avatar" style="background:linear-gradient(140deg,#34d399,#5ce1e6);border:none" data-jstt-modal="创作者档案" data-jstt-modal-text="雨天片场，创作幕后与器材经验分享者，常以拍摄现场为素材，呈现影像背后的试错与取舍。">雨</button>
+          <h4>雨天片场</h4>
+          <div class="jstt-domain">创作幕后 · 器材</div>
+          <p>把拍摄现场也拍下来，让经验本身成为内容。</p>
+          <div class="jstt-creator-nums">
+            <span><b>64</b>作品</span>
+            <span><b>9.3万</b>关注</span>
+          </div>
+          <button data-jstt-modal="关注创作者" data-jstt-modal-text="已向 雨天片场 发送关注请求，后续更新将在消息中心提醒。">+ 关注</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 榜单 -->
+  <section class="jstt-section jstt-section-tight">
+    <div class="jstt-wrap">
+      <div class="jstt-eyebrow">数据榜单</div>
+      <h2 class="jstt-h2">社区 <span>热度与口碑</span> 一周速览</h2>
+      <div class="jstt-rank" style="margin-top:24px">
+        <div class="jstt-rank-col">
+          <h4>热度榜 · 本周</h4>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">1</span>凌晨两点的便利店<span class="jstt-rank-heat">98.6</span></div>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">2</span>走完这条街再回家<span class="jstt-rank-heat">94.2</span></div>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">3</span>把夜宵做成一场仪式<span class="jstt-rank-heat">91.7</span></div>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">4</span>雨夜里的十分钟<span class="jstt-rank-heat">88.3</span></div>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">5</span>末班地铁的十二分钟<span class="jstt-rank-heat">85.9</span></div>
+        </div>
+        <div class="jstt-rank-col">
+          <h4>新人榜 · 12 月</h4>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">1</span>拾音计划<span class="jstt-rank-heat">+312%</span></div>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">2</span>天台放映组<span class="jstt-rank-heat">+274%</span></div>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">3</span>步行主义<span class="jstt-rank-heat">+221%</span></div>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">4</span>夜宵研究所<span class="jstt-rank-heat">+198%</span></div>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">5</span>街角取景器<span class="jstt-rank-heat">+176%</span></div>
+        </div>
+        <div class="jstt-rank-col">
+          <h4>口碑榜 · 季度</h4>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">1</span>小酒馆老板的账本<span class="jstt-rank-heat">9.7</span></div>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">2</span>听，城市在夜里换气<span class="jstt-rank-heat">9.5</span></div>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">3</span>一杯酒的三分钟沉默<span class="jstt-rank-heat">9.4</span></div>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">4</span>同一条街的三种走法<span class="jstt-rank-heat">9.2</span></div>
+          <div class="jstt-rank-item"><span class="jstt-rank-no">5</span>车窗外的城市缓慢退后<span class="jstt-rank-heat">9.1</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 用户评价 -->
+  <section class="jstt-section" id="jstt-reviews">
+    <div class="jstt-wrap">
+      <div class="jstt-eyebrow">用户口碑</div>
+      <h2 class="jstt-h2">来自 <span>社区用户</span> 的真实反馈</h2>
+      <p class="jstt-sub">我们不做筛选式好评，以下内容来自不同用户在不同场景下的真实留言。</p>
+      <div class="jstt-review-grid" style="margin-top:24px">
+        <div class="jstt-review">
+          <p>第一次点开《凌晨两点的便利店》就停不下来。它没有刻意煽情，但那种“城市里还有人醒着”的感觉特别真实。后来我把整个系列都补完了。</p>
+          <div class="jstt-review-who"><span class="jstt-avatar" style="background:#ffb347">周</span>周先生 · 产品经理</div>
+        </div>
+        <div class="jstt-review">
+          <p>作为创作者，这里的投稿反馈比我预期认真很多。编辑会指出节奏问题，也会给参考片单。不是敷衍地回一句“已阅”。</p>
+          <div class="jstt-review-who"><span class="jstt-avatar" style="background:#5ce1e6">林</span>林同学 · 自由摄影师</div>
+        </div>
+        <div class="jstt-review">
+          <p>专题页做得很舒服，不会一打开就一堆弹窗。找片、看简介、收藏，几步就完成，适合我这种只想安静看片的人。</p>
+          <div class="jstt-review-who"><span class="jstt-avatar" style="background:#a78bfa">苏</span>苏女士 · 编辑</div>
+        </div>
+        <div class="jstt-review">
+          <p>最喜欢的是它没有把夜晚拍成滤镜。灯光是脏的，街道是有杂音的，但就是好看。这种质感在同类内容里很难得。</p>
+          <div class="jstt-review-who"><span class="jstt-avatar" style="background:#34d399">陈</span>陈先生 · 建筑设计师</div>
+        </div>
+        <div class="jstt-review">
+          <p>跟着《走完这条街再回家》去实走了那段路，真的找到了片中那家关门很晚的糖水铺。线上线下能对上，这点很打动我。</p>
+          <div class="jstt-review-who"><span class="jstt-avatar" style="background:#fb923c">吴</span>吴小姐 · 学生</div>
+        </div>
+        <div class="jstt-review">
+          <p>品牌故事写得不空，能看出是真的在做内容而不是做包装。更新频率稳定，质量也在线，会继续关注官方发布。</p>
+          <div class="jstt-review-who"><span class="jstt-avatar" style="background:#60a5fa">何</span>何老师 · 高校教师</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作灵感 -->
+  <section class="jstt-section jstt-section-tight">
+    <div class="jstt-wrap">
+      <div class="jstt-eyebrow">创作灵感</div>
+      <h2 class="jstt-h2">给 <span>下一次拍摄</span> 的三个起点</h2>
+      <p class="jstt-sub">编辑部整理的选题与剪辑思路，供社区创作者参考。灵感只是起点，真正的答案在现场。</p>
+      <div class="jstt-idea-wrap" style="margin-top:24px">
+        <div class="jstt-idea">
+          <h4>脚本灵感 · 一个固定坐标</h4>
+          <p>选一个你每天都会经过但从未拍摄的位置，连续拍七天同一时刻。第七天再剪，你往往能看到前六天忽略的东西。</p>
+          <span class="jstt-idea-tag">适合日常记录</span>
+        </div>
+        <div class="jstt-idea">
+          <h4>剪辑思路 · 先声后画</h4>
+          <p>先剪声音轨，再铺画面。夜戏里环境声的信息量往往高于画面，先让耳朵说服观众，画面会更可信。</p>
+          <span class="jstt-idea-tag">适合治愈影像</span>
+        </div>
+        <div class="jstt-idea">
+          <h4>标题建议 · 具体胜过形容</h4>
+          <p>“深夜的温暖”不如“深夜两点还亮着灯的七家店”。标题里放一个可验证的细节，点击与停留都会更稳定。</p>
+          <span class="jstt-idea-tag">适合城市探索</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企业动态 -->
+  <section class="jstt-section" id="jstt-news">
+    <div class="jstt-wrap">
+      <div class="jstt-eyebrow">企业动态</div>
+      <h2 class="jstt-h2">品牌 <span>官方发布</span> 与内容更新</h2>
+      <div class="jstt-timeline" style="margin-top:24px;max-width:840px">
+        <div class="jstt-timeline-item">
+          <time>2026-11-15</time>
+          <h4>「城市微光·夜游计划」第二季完成拍摄</h4>
+          <p>本季共完成 18 支原创短片，覆盖六座城市的夜间街区，预计 12 月 6 日起分批上线官方网站专题页。</p>
+        </div>
+        <div class="jstt-timeline-item">
+          <time>2026-11-08</time>
+          <h4>创作者扶持计划第三期开始报名</h4>
+          <p>面向城市影像与微醺主题开放，入选创作者可获得选题指导、器材支持与后期协作资源。报名截止 12 月 20 日。</p>
+        </div>
+        <div class="jstt-timeline-item">
+          <time>2026-10-29</time>
+          <h4>2026 年度精选片单首批更新</h4>
+          <p>新增 24 支正版高清作品与 6 篇创作手记，片单页支持按主题、城市与创作年限筛选。</p>
+        </div>
+        <div class="jstt-timeline-item">
+          <time>2026-10-12</time>
+          <h4>平台内容规范 2.0 版发布</h4>
+          <p>进一步明确原创确认、授权登记与商业合作标注流程，保障创作者权益与社区内容品质。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="jstt-section jstt-section-tight" id="jstt-faq">
+    <div class="jstt-wrap">
+      <div class="jstt-eyebrow">常见问题</div>
+      <h2 class="jstt-h2">关于 <span>平台与投稿</span> 的常见问答</h2>
+      <div class="jstt-faq" style="margin-top:24px;max-width:880px">
+        <details>
+          <summary>酒色蝌蚪91 是一个怎样的平台？</summary>
+          <p>酒色蝌蚪91 是专注于城市夜游与微醺生活方式的视频品牌官方网站，提供原创短片展示、专题企划、创作者社区与品牌资讯等服务。</p>
+        </details>
+        <details>
+          <summary>如何向平台投稿原创作品？</summary>
+          <p>可通过页面上的「立即投稿」入口提交作品信息与样片链接，编辑部会在五个工作日内回复。请确保内容为本人原创，并具备完整授权。</p>
+        </details>
+        <details>
+          <summary>作品必须与城市或夜晚有关吗？</summary>
+          <p>品牌主线聚焦城市与夜色，但同样欢迎生活方式、人物访谈与创作幕后等方向。只要表达真实、有细节，都可以进入评估流程。</p>
+        </details>
+        <details>
+          <summary>平台如何保障创作者权益？</summary>
+          <p>入选内容需完成原创确认与授权登记，正式发布时会保留创作者署名，商业合作内容按要求进行标注，未经授权不进行二次分发。</p>
+        </details>
+        <details>
+          <summary>如何参与专题企划与创作者扶持计划？</summary>
+          <p>专题页与企业动态中会公布当期主题与报名方式，创作者可按照要求提交选题或样片，入选后由编辑部对接后续拍摄与发布安排。</p>
+        </details>
+        <details>
+          <summary>平台内容适合哪些人群？</summary>
+          <p>适合对城市文化、生活记录与独立影像感兴趣的观众，也适合希望系统展示作品、寻找同好的内容创作者。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系与分享 -->
+  <section class="jstt-section" id="jstt-contact">
+    <div class="jstt-wrap">
+      <div class="jstt-eyebrow">联系我们</div>
+      <h2 class="jstt-h2">与 <span>酒色蝌蚪91</span> 建立联系</h2>
+      <div class="jstt-contact" style="margin-top:24px">
+        <div class="jstt-contact-card">
+          <h3 style="font-size:18px">合作 · 投稿 · 反馈</h3>
+          <p>无论是品牌合作、内容共创还是使用建议，都欢迎与我们取得联系。官方网站会持续更新合作入口与联系方式。</p>
+          <div class="jstt-contact-list">
+            <div><span>合作邮箱</span>brand@jiusekedou.example</div>
+            <div><span>投稿邮箱</span>creator@jiusekedou.example</div>
+            <div><span>工作时间</span>周一至周五 10:00 - 19:00</div>
+            <div><span>办公地址</span>城市影像创意园 B 座 4 层</div>
+          </div>
+        </div>
+        <div class="jstt-contact-card">
+          <h3 style="font-size:18px">分享与互动</h3>
+          <p>把喜欢的作品分享给同样热爱城市夜晚的人，或者留下你的反馈，帮助我们把内容做得更好。</p>
+          <div class="jstt-share-row">
+            <button class="jstt-share-btn" id="jsttCopyLink">复制链接</button>
+            <button class="jstt-share-btn" data-jstt-modal="分享到微信" data-jstt-modal-text="请打开微信，扫描或搜索品牌官方账号「酒色蝌蚪91」，即可将当前页面分享给好友。">微信</button>
+            <button class="jstt-share-btn" data-jstt-modal="分享到微博" data-jstt-modal-text="已生成分享文案，可前往微博粘贴发布：#酒色蝌蚪91# 城市夜游原创短片持续更新中。">微博</button>
+            <button class="jstt-share-btn" data-jstt-modal="反馈与举报" data-jstt-modal-text="请将问题描述与相关页面信息发送至反馈邮箱，我们会在收到后尽快核实处理。">反馈举报</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="jstt-footer">
+  <div class="jstt-wrap">
+    <div class="jstt-footer-grid">
+      <div>
+        <h5>酒色蝌蚪91 · 官方网站</h5>
+        <p>专注城市夜游与微醺生活方式的视频品牌企业，持续运营原创内容社区，以真实、品质与匠心记录城市夜晚。</p>
+        <p style="margin-top:8px;color:#7f7f99">© 2026 酒色蝌蚪91 版权所有 · 持续运营中</p>
+      </div>
+      <div>
+        <h5>内容</h5>
+        <a href="#jstt-focus">焦点推荐</a><br>
+        <a href="#jstt-hot">热门内容</a><br>
+        <a href="#jstt-topics">专题企划</a><br>
+        <a href="#jstt-creators">创作者矩阵</a>
+      </div>
+      <div>
+        <h5>品牌</h5>
+        <a href="#jstt-deep">品牌故事</a><br>
+        <a href="#jstt-news">企业动态</a><br>
+        <a href="#jstt-reviews">用户口碑</a><br>
+        <a href="#jstt-faq">帮助中心</a>
+      </div>
+      <div>
+        <h5>参与</h5>
+        <a href="#jstt-contact">合作联系</a><br>
+        <a href="#jstt-contact">投稿入口</a><br>
+        <a href="#jstt-contact">反馈举报</a><br>
+        <a href="#jstt-top">返回首页</a>
+      </div>
+    </div>
+    <div class="jstt-footer-bottom">
+      <span>酒色蝌蚪91 官方网站 | 品牌备案信息可在官方渠道查询 | 内容版权归原作者所有</span>
+      <span>原创 · 正版 · 高清 · 值得信赖</span>
+    </div>
+  </div>
+</footer>
+
+<button class="jstt-top-btn" id="jsttTopBtn" aria-label="回到顶部">↑</button>
+
+<div class="jstt-toast" id="jsttToast" role="status" aria-live="polite"></div>
+
+<div class="jstt-modal" id="jsttModal" role="dialog" aria-modal="true" aria-labelledby="jsttModalTitle">
+  <div class="jstt-modal-box">
+    <h3 id="jsttModalTitle">提示</h3>
+    <p id="jsttModalText"></p>
+    <button class="jstt-modal-close" id="jsttModalClose">知道了</button>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toast = document.getElementById('jsttToast');
+  var toastTimer = null;
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('jstt-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('jstt-show'); }, 2200);
+  }
+
+  /* 移动端导航 */
+  var burger = document.getElementById('jsttBurger');
+  var nav = document.getElementById('jsttNav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('jstt-nav-open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A' && window.innerWidth <= 720){
+      nav.classList.remove('jstt-nav-open');
+      burger.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* 搜索前端反馈 */
+  var searchInput = document.getElementById('jsttSearchInput');
+  var searchFeedback = document.getElementById('jsttSearchFeedback');
+  var searchIndex = [
+    {keys:['便利店','凌晨','夜行'], tip:'《凌晨两点的便利店》· 夜行灯箱'},
+    {keys:['地铁','末班','通勤'], tip:'《末班地铁的十二分钟》· 夜行灯箱'},
+    {keys:['老街','走完','街道'], tip:'《走完这条街再回家》· 街角取景器'},
+    {keys:['雨','拍摄','幕后'], tip:'《雨夜里的十分钟》· 雨天片场'},
+    {keys:['酒','微醺','访谈'], tip:'《一杯酒的三分钟沉默》· 深夜访谈录'},
+    {keys:['夜宵','美食','仪式'], tip:'《把夜宵做成一场仪式》· 夜宵研究所'},
+    {keys:['声音','环境声','空镜'], tip:'《听，城市在夜里换气》· 拾音计划'},
+    {keys:['专题','企划','微光'], tip:'专题「城市微光」第二季 · 12 月 6 日上线'},
+    {keys:['创作者','投稿','扶持'], tip:'创作者扶持计划第三期 · 12 月 20 日截止报名'}
+  ];
+  function runSearch(){
+    var q = searchInput.value.trim();
+    if(!q){
+      searchFeedback.classList.remove('jstt-show');
+      searchFeedback.textContent = '';
+      return;
+    }
+    var found = [];
+    for(var i=0;i<searchIndex.length;i++){
+      var item = searchIndex[i];
+      for(var j=0;j<item.keys.length;j++){
+        if(item.keys[j].indexOf(q) > -1 || q.indexOf(item.keys[j]) > -1){
+          found.push(item.tip);
+          break;
+        }
+      }
+    }
+    searchFeedback.classList.add('jstt-show');
+    if(found.length){
+      searchFeedback.textContent = '匹配到 ' + found.length + ' 条：' + found.slice(0,2).join('；');
+    } else {
+      searchFeedback.textContent = '暂未找到相关内容，可尝试「夜景」「访谈」「专题」等关键词。';
+    }
+  }
+  searchInput.addEventListener('input', runSearch);
+  searchInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){
+      e.preventDefault();
+      runSearch();
+      showToast('已为你检索站内相关内容');
+    }
+  });
+
+  /* 点赞 */
+  document.querySelectorAll('[data-jstt-like]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var countSpan = btn.querySelector('span');
+      var base = parseInt(btn.getAttribute('data-count'), 10) || 0;
+      var liked = btn.classList.toggle('jstt-liked');
+      var next = liked ? base + 1 : base;
+      btn.setAttribute('data-count', next);
+      countSpan.textContent = next;
+      showToast(liked ? '已点赞，感谢支持原创内容' : '已取消点赞');
+    });
+  });
+
+  /* 收藏 */
+  document.querySelectorAll('[data-jstt-save]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var saved = btn.classList.toggle('jstt-saved');
+      btn.textContent = saved ? '★' : '☆';
+      showToast(saved ? '已加入收藏，可在个人中心查看' : '已移出收藏');
+    });
+  });
+
+  /* 弹窗 */
+  var modal = document.getElementById('jsttModal');
+  var modalTitle = document.getElementById('jsttModalTitle');
+  var modalText = document.getElementById('jsttModalText');
+  var modalClose = document.getElementById('jsttModalClose');
+  function openModal(title, text){
+    modalTitle.textContent = title || '提示';
+    modalText.textContent = text || '';
+    modal.classList.add('jstt-show');
+  }
+  function closeModal(){
+    modal.classList.remove('jstt-show');
+  }
+  document.querySelectorAll('[data-jstt-modal]').forEach(function(el){
+    el.addEventListener('click', function(){
+      openModal(el.getAttribute('data-jstt-modal'), el.getAttribute('data-jstt-modal-text'));
+    });
+  });
+  modalClose.addEventListener('click', closeModal);
+  modal.addEventListener('click', function(e){
+    if(e.target === modal) closeModal();
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape') closeModal();
+  });
+
+  /* 复制链接 */
+  var copyBtn = document.getElementById('jsttCopyLink');
+  copyBtn.addEventListener('click', function(){
+    var linkText = location.href;
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(linkText).then(function(){
+        showToast('链接已复制，可以分享给好友了');
+      }).catch(function(){
+        showToast('复制失败，请手动选择地址栏链接');
+      });
+    } else {
+      showToast('当前环境不支持自动复制，请手动复制地址栏链接');
+    }
+  });
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('jsttTopBtn');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){
+      topBtn.classList.add('jstt-show');
+    } else {
+      topBtn.classList.remove('jstt-show');
+    }
+  }, {passive:true});
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* 导航高亮 */
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('.jstt-nav a'));
+  var sections = navLinks.map(function(a){
+    var id = a.getAttribute('href').replace('#','');
+    return {link:a, el:document.getElementById(id)};
+  }).filter(function(item){ return item.el; });
+  window.addEventListener('scroll', function(){
+    var y = window.scrollY + 140;
+    var current = sections[0];
+    sections.forEach(function(item){
+      if(item.el.offsetTop <= y) current = item;
+    });
+    navLinks.forEach(function(a){ a.classList.remove('jstt-nav-active'); });
+    if(current) current.link.classList.add('jstt-nav-active');
+  }, {passive:true});
+
+})();
+</script>
+</body>
+    </html>
